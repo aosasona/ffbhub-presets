@@ -1,0 +1,140 @@
+app_version = '0.7.390'
+name = 'default'
+
+[Advanced]
+aux_telemetry_reconstruction = 0
+gyro_gain = 0.0
+gyro_smoothing = 0.014999999664723873
+rest_api_enabled = false
+rest_api_port = 6397
+road_fallback_scale = 0.05000000074505806
+soft_lock_damping = 0.5
+soft_lock_enabled = false
+soft_lock_stiffness = 20.0
+speed_gate_lower = 1.0
+speed_gate_upper = 5.0
+stationary_damping = 0.11999999731779099
+understeer_affects_sop = false
+
+[Braking]
+abs_freq = 10.0
+abs_gain = 0.17000000178813934
+abs_pulse_enabled = false
+brake_load_cap = 2.0
+lockup_bump_reject = 0.10000000149011612
+lockup_enabled = true
+lockup_freq_scale = 0.699999988079071
+lockup_full_pct = 5.0
+lockup_gain = 0.25
+lockup_gamma = 1.0
+lockup_prediction_sens = 10.0
+lockup_rear_boost = 10.0
+lockup_start_pct = 1.0
+
+[FrontAxle]
+center_fill_fade_end = 2.0
+center_fill_fade_start = 0.5
+center_fill_gain = 0.0
+center_fill_steer_pct = 0.02500000037252903
+flatspot_strength = 1.0
+flatspot_suppression = true
+ingame_ffb_gain = 1.0
+notch_q = 2.0
+static_notch_enabled = false
+static_notch_freq = 11.0
+static_notch_width = 2.0
+steering_100hz_reconstruction = 0
+steering_shaft_gain = 0.5
+steering_shaft_smoothing = 0.004999999888241291
+torque_passthrough = false
+torque_source = 1
+understeer_effect = 0.25
+understeer_gamma = 1.0
+
+[General]
+auto_load_normalization_enabled = false
+dynamic_normalization_enabled = false
+gain = 0.699999988079071
+min_force = 0.0
+target_rim_nm = 10.0
+
+[GripEstimation]
+chassis_inertia_smoothing = 0.0
+grip_smoothing_fast = 0.004999999888241291
+grip_smoothing_sensitivity = 0.10000000149011612
+grip_smoothing_steady = 0.05000000074505806
+load_sensitivity_enabled = false
+optimal_slip_angle = 0.10000000149011612
+optimal_slip_ratio = 0.11999999731779099
+slip_angle_smoothing = 9.999999747378752e-05
+
+[LoadForces]
+lat_load_effect = 0.0
+lat_load_transform = 0
+long_load_effect = 0.17000000178813934
+long_load_smoothing = 0.0
+long_load_transform = 1
+
+[RearAxle]
+kerb_strike_rejection = 0.07000000029802322
+oversteer_boost = 0.0
+power_slip_threshold = 0.10000000149011612
+power_yaw_gain = 0.20000000298023224
+power_yaw_gamma = 0.5
+power_yaw_punch = 0.0
+power_yaw_threshold = 0.20000000298023224
+rear_align_effect = 0.5
+sop_effect = 1.6699999570846558
+sop_scale = 1.0
+sop_smoothing_factor = 0.0
+sop_yaw_gain = 0.10000000149011612
+unloaded_yaw_gain = 0.05000000074505806
+unloaded_yaw_gamma = 1.0
+unloaded_yaw_punch = 0.0
+unloaded_yaw_sens = 1.0
+unloaded_yaw_threshold = 1.0
+yaw_accel_smoothing = 0.0010000000474974513
+yaw_kick_threshold = 1.0199999809265137
+
+[Safety]
+gain_reduction = 0.30000001192092896
+immediate_spike_threshold = 1500.0
+slew_full_scale_time_s = 1.0
+smoothing_tau = 0.20000000298023224
+spike_detection_threshold = 500.0
+stutter_safety_enabled = false
+stutter_threshold = 1.5
+window_duration = 0.0
+
+[SlopeDetection]
+alpha_threshold = 0.019999999552965164
+confidence_enabled = true
+confidence_max_rate = 0.10000000149011612
+decay_rate = 5.0
+enabled = false
+g_slew_limit = 50.0
+max_threshold = -2.0
+min_threshold = -0.30000001192092896
+sensitivity = 0.5
+sg_window = 15
+smoothing_tau = 0.03999999910593033
+torque_sensitivity = 0.5
+use_torque = true
+
+[Vibration]
+bottoming_enabled = false
+bottoming_gain = 1.0
+bottoming_method = 0
+road_enabled = false
+road_gain = 0.05000000074505806
+road_smoothing = 0.007000000216066837
+scrub_drag_gain = 0.0
+slide_damping = 0.05000000074505806
+slide_enabled = false
+slide_freq = 3.049999952316284
+slide_gain = 0.05000000074505806
+spin_enabled = true
+spin_freq_scale = 1.0
+spin_gain = 0.4000000059604645
+texture_load_cap = 1.590000033378601
+vibration_gain = 0.9399999976158142
